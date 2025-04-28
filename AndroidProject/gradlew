@@ -105,4 +105,4 @@ if [ -z "$JAVA_OPTS" ]; then
 fi
 
 # Execute Gradle
-exec "$JAVACMD" $JAVA_OPTS -classpath "$GRADLE_HOME/lib/gradle-launcher-8.0.jar" org.gradle.launcher.GradleMain "$@"
+exec "$JAVACMD" $JAVA_OPTS -classpath "$GRADLE_HOME/lib/gradle-launcher-8.0.2.jar" org.gradle.launcher.GradleMain "$@"
